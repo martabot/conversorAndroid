@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         double monto=Double.parseDouble(cantidad.getText().toString());
         if(r1.isChecked()){
             if(cantidad!=null&&monto>0){
-                respuesta.setText("$"+monto*0.78);
+                respuesta.setText("$"+monto*1.10);
             } else {
                 Toast.makeText(this, "Ingrese un monto", Toast.LENGTH_SHORT).show();
             }
